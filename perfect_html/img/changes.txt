@@ -1,0 +1,9 @@
+This is a modified version of Folio-Gallery script by by stefan [linudaar]. I adds ability for captions.
+
+These are the features added.
+
+1. Added possibility to use album captions for each album by checking for the content of a file ".caption" within the album folder. The caption is displayed in the album overview page under the (random) album image
+
+2. Possibility to use album descriptions for each album by checking for the content of a file ".description". The description is displayed under the title bar in an album page.
+
+3. Possibility to add captions for certain images. The captions have to be in a file ".image-captions" that needs to have a csv format (filename;short-caption;long-caption). If no long caption is specified (3rd column), the long caption is equal to the short caption. The image captions are displayed - if they exist - under the thumb of the image. The long caption is displayed in the popup.
